@@ -1,4 +1,4 @@
-![Estático](https://img.shields.io/badge/Legion--de--Mal-Versión-blue)
+![Estático](https://img.shields.io/badge/Legion--de--Mal-Utlima-Versión-blue)
 
 ![Workflow](https://img.shields.io/github/actions/workflow/status/dark-raven-123/legion-del-mal/ci.yml)
 ![Release](https://img.shields.io/github/v/release/dark-raven-123/legion-del-mal)
