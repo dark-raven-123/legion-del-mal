@@ -39,11 +39,11 @@ Somos la alianza definitiva de supervillanos. Mientras los héroes se dividen en
 ## Miembros activos (campo)
 
 - **Joker** — Operaciones de distracción y caos
-- **Doctor Doom** — Armamento avanzado y magia
-- **Loki** — Engaño, ilusiones y diplomacia hostil
+- **Doctor Fate** — Armamento místico y magia
+- **Riddler** — Engaño, acertijos y manipulación
 - **Catwoman** — Robos de alta precisión
-- **Venom** — Fuerza bruta y operaciones de intimidación
-- **Green Goblin** — Tecnología avanzada y tácticas de terror
+- **Bizarro** — Fuerza bruta y operaciones de intimidación
+- **Lex Luthor** — Tecnología avanzada y tácticas de terror
 
 ## Reglas de la Legión
 
