@@ -21,3 +21,4 @@ Esta es la descripcion de spiderman
 - Debilidad 1
 - Debilidad 2
 - Debilidad 3
+- Debilidad 4
