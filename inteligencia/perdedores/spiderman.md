@@ -16,3 +16,8 @@ Esta es la descripcion de spiderman
 - Poder 2
 - Poder 3
 - Poder 4
+
+## Debilidades
+- Debilidad 1
+- Debilidad 2
+- Debilidad 3
