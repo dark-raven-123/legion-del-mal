@@ -12,6 +12,15 @@ on:
           - Magneto
           - Joker
           - Brainiac
+      
+      cow_character:
+        description: Personaje 
+        required: true
+        type: choice
+        options: 
+          - dragon
+          - ghostbusters
+          - eyes
 
       mensaje:
         description: Mensaje para el consejo
@@ -42,5 +51,5 @@ jobs:
           echo "Villano: ${{inputs.villano}}"
           echo "Nivel: ${{inputs.prioridad}}"
           echo "========== Mensaje =========="
-          cowsay -f eyes "${{inputs.mensaje}}"
+          cowsay -f ${{inputs.cow_character}} "${{inputs.mensaje}}"
           echo ""
