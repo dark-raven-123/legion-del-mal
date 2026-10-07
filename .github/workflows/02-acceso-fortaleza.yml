@@ -1,6 +1,7 @@
 name: Acceso a Fortaleza
 
-on: push
+on: 
+  workflow_dispatch:
 
 jobs: 
   acceso-a-la-base:
@@ -15,6 +16,23 @@ jobs:
           ls -la
           echo ""
           echo "X pero que paso no hay nada"
+
+      - name: Se desbloquea la boveda
+        uses: actions/checkout@v4
+
+      - name: Vamos a ver los planes
+        run: |
+          echo "Buscar los archivos"
+          ls -la
+          echo "Funciona!!!"
+          echo "Planes: "
+          ls planes/
+          echo "Villanos: "
+          ls villanos/
+          echo "Inteligencia: "
+          ls inteligencia/
+
+                
 
 
       
