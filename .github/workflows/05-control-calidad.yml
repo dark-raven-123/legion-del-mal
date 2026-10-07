@@ -15,10 +15,6 @@ jobs:
       
       - name: Revisa los cambios
         run: |
-          echo "PWD=$(pwd)"
-          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
-          ls -al
-          ls -al scripts
           chmod +x scripts/validar-planes.sh
           ./scripts/validar-planes.sh
 
