@@ -12,8 +12,10 @@ jobs:
     steps:
       - name: Acceder a los planes
         uses: actions/checkout@v4
+      
       - name: Revisa los cambios
         run: |
+        ls -al
           chmod +x ./scripts/validar-planes.sh
           ./scripts/validar-planes.sh
 
