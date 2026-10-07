@@ -31,10 +31,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: "Instalar el transmisor"
+        run: sudo apt-get install -y cowsay
       - name: Imprimir inputs
         run: |
-          echo "Inputs: "
+          echo "============================="
+          echo "          Transmision        "
+          echo "============================="
           echo ""
           echo "Villano: ${{inputs.villano}}"
-          echo "Nivel: ${{inputs.nivel}}"
-          echo "Mensaje: ${{inputs.mensaje}}"
+          echo "Nivel: ${{inputs.prioridad}}"
+          echo "========== Mensaje =========="
+          cowsay -f eyes "${{inputs.mensaje}}"
+          echo ""
