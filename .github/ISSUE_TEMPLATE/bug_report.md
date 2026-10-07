@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: 'Bug: Custom'
-labels: ''
+labels: bug, mejora de software
 assignees: ''
 type: Bug
 
