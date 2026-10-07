@@ -12,6 +12,20 @@ on:
           - Magneto
           - Joker
           - Brainiac
+
+      mensaje:
+        description: Mensaje para el consejo
+        required: true        
+        default: 'La mision fue un exito'
+
+      prioridad:
+        description: Nivel de prioridad
+        required: true
+        type: choice
+        options: 
+          - Normal
+          - Alta
+          - Crítica
 jobs:
   transmitir-mensaje:
     runs-on: ubuntu-latest
