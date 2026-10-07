@@ -15,6 +15,7 @@ jobs:
       
       - name: Revisa los cambios
         run: |
+          ls -al
           chmod +x ./scripts/validar-planes.sh
           ./scripts/validar-planes.sh
 
