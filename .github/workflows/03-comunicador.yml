@@ -51,5 +51,5 @@ jobs:
           echo "Villano: ${{inputs.villano}}"
           echo "Nivel: ${{inputs.prioridad}}"
           echo "========== Mensaje =========="
-          cowsay -f ${{inputs.cow_character}} "${{inputs.mensaje}}"
+          cowsay -f "${{inputs.cow_character}}" "${{inputs.mensaje}}"
           echo ""
