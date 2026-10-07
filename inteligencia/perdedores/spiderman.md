@@ -22,3 +22,7 @@ Esta es la descripcion de spiderman
 - Debilidad 2
 - Debilidad 3
 - Debilidad 4
+
+## Conocidos
+- Conocido 1
+- Conocido 2
